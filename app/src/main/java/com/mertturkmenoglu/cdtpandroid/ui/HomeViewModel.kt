@@ -48,8 +48,8 @@ class HomeViewModel : ViewModel(), AnkoLogger {
     private suspend fun updateGreenhouseData(name: String, newTemperature: Int) {
         try {
             GreenhouseApiAdapter.client.updateGreenhouse(
-                name,
-                GreenhouseUpdateBody(newTemperature)
+                name = name,
+                body = GreenhouseUpdateBody(temperatureWish = newTemperature)
             )
         } catch (e: Exception) {
             error { "UpdateGreenhouse failed: ${e.message}" }
