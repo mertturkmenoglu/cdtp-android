@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_fab_margin">32dp</dimen>
+    <dimen name="home_greenhouse_card_view_elevation">8dp</dimen>
+    <dimen name="greenhouse_item_greenhouse_name_margin_start">16dp</dimen>
+    <dimen name="greenhouse_item_temperature_margin_start">16dp</dimen>
+    <dimen name="greenhouse_item_greenhouse_size">16sp</dimen>
+    <dimen name="greenhouse_item_temperature_size">12sp</dimen>
+</resources>
